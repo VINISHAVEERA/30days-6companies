@@ -16,11 +16,7 @@ class Solution:
             return (slope,"%.5f" % b) #Floating Point has issues and limitations, using floating point as hash key isn't a good iead, so round it up a little bit. Check the comment below for the issue.
 
         res = 0
-        # Let each point be the start point.
-        # Check the lines formed using other points as the end point.
-        # Only the distinct line equation matters here (Using hash map to count). 
-        # We want to count how many points are in each line euqation.
-        # Update the result with the maximum number of points in a line euqation.
+        
         for i in range(len(points)):
             count = defaultdict(int)
             for j in range(i+1,len(points)):
