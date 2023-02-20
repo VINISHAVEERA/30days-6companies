@@ -9,10 +9,10 @@ class Solution {
             boolean conflict = false;
             for (int j = 0; !conflict&&j < n; j++) {
                 if (bitmask.charAt(j) == '1') {
-                    // 2. check his statements to others so we know if there's a conflict. 
+                   
                     for(int k = 0; !conflict&&k< sts[j].length; k++) {
                         if (sts[j][k]!=2 && sts[j][k] != bitmask.charAt(k)-'0') {
-                            // this indicates there's a conflict, so this guy is not good as we assumed
+                          
                             conflict=true;
                         }
                     }
