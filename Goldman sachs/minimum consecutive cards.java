@@ -16,3 +16,4 @@ class Solution {
         return minLen == Integer.MAX_VALUE ? -1 : minLen;
     }
 }
+}
