@@ -1,6 +1,6 @@
 public class Solution{
     public int findUnsortedSubarray(int[] nums){
-        int start =0;
+        int start =0
         int n = nums.length;
         int[] temp = nums.clone();
         Arrays.sort(temp);
