@@ -29,7 +29,7 @@ class Solution {
                 m=0;
             }
         }
-        //System.out.println(p);
+        
         for(int i=left;i<=right;i++)
         {
             if(k[i] == true && a[0] != -1)
