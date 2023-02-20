@@ -1,6 +1,5 @@
 class Solution {
-    
-	// initial count is 2 for 0 and 1
+
     int cnt = 2;
     
     public int findIntegers(int n) {
