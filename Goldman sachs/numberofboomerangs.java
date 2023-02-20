@@ -28,4 +28,3 @@ private int getDistance(int[] a, int[] b) {
     return dx*dx + dy*dy;
 }
 
-}
