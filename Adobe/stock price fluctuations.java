@@ -21,7 +21,7 @@ class StockPrice {
     }
 
     public int maximum() {
-        return vals.lastKey();
+        return vals.lastKey()
     }
 
     public int minimum() {
