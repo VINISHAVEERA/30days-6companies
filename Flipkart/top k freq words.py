@@ -9,6 +9,6 @@ class Solution:
         x=0
         for i,j in s_dict.items():
             if(x<k):
-                lst.append(i)
+                lst.append(i);
                 x+=1
         return lst
