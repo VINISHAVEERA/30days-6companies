@@ -21,11 +21,7 @@
 //             if(!set.add(s2)) set.remove(s2);
 //             if(!set.add(s3)) set.remove(s3);
 //             if(!set.add(s4)) set.remove(s4);
-//         }  
-//         if(!set.contains(x1+" "+y1) || !set.contains)
-
-//     }
-// }
+//         } 
 
 class Solution{
 public boolean isRectangleCover(int[][] rectangles) {
