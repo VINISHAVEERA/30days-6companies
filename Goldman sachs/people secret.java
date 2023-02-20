@@ -4,9 +4,6 @@ class Solution {
         int m = 1000000007;
         long ans = 0;
         
-        // It represnts the timelime
-        // i.e. for how many days a person will remeber the 
-        // secret and then forget
         int[] dayTracker = new int[forget];
         
         // Initialze (at 1st day 1 person knows)
