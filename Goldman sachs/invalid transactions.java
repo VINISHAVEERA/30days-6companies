@@ -1,4 +1,4 @@
-    //Four seperate Arrays for {name}, {time}, {amount}, and {city}
+
     String names[] = new String[transactions.length];
     int time[] = new int[transactions.length];
     int amts[] = new int[transactions.length];
