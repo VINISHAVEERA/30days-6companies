@@ -19,7 +19,7 @@ class Solution:
             premap[crs] = []
             return True
 
-        for crs in range(numCourses):
+        for crs in range(numCourses)
             if not dfs(crs): return False
         return True
 
