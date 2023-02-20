@@ -24,4 +24,3 @@ class Solution {
 
 }
 
-// return s.substring(0,lps[lps.length-1]);
