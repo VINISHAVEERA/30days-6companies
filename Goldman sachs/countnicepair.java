@@ -1,7 +1,5 @@
 class Solution {
-    // num[i] - rev(num[i]) == num[j] - rev[num[j]]
-    // How many pairs in B satisfy below condition 
-    // B[i] == B[j]
+    
     
    
 public int countNicePairs(int[] nums) {
